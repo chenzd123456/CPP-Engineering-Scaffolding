@@ -10,6 +10,7 @@ make
 
 # Directories
 
+```
 .
 |-- 3rd
 |-- CMakeCache.txt          <-- CMake temporary dirs & files
@@ -28,3 +29,4 @@ make
 |-- lib                     <-- library file output dir
 |-- src                     <-- source code push here
 `-- test                    <-- test code push here
+```
