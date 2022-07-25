@@ -17,4 +17,5 @@ file(GLOB_RECURSE SOURCE
 add_executable(${PROJECT_NAME} ${SOURCE})
 target_link_libraries(${PROJECT_NAME})
 
+add_subdirectory(3rd)
 add_subdirectory(test)
