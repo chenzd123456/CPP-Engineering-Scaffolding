@@ -15,7 +15,9 @@ file(GLOB_RECURSE SOURCE
 
 add_definitions(-DTEST)
 
-# Now simply link against gtest or gtest_main as needed. Eg
+SET(CMAKE_CXX_FLAGS "-g -O0 -Wall -fprofile-arcs -ftest-coverage")
+SET(CMAKE_C_FLAGS "-g -O0 -Wall -W -fprofile-arcs -ftest-coverage")
+
 add_executable(${PROJECT_NAME} ${SOURCE})
 target_link_libraries(${PROJECT_NAME} gtest_main gtest gmock)
 add_test(NAME all_test COMMAND ${PROJECT_NAME})

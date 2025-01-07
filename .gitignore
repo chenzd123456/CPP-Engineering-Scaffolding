@@ -13,3 +13,4 @@ build/
 dist/
 lib/
 bin/
+result/test.json

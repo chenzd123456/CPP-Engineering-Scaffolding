@@ -1,10 +1,16 @@
 # CPP-Engineering-Scaffolding
 CPP Engineering Scaffolding
 
-# Usage
+## clone depends
+
+git submodule update --recursive --init
+
+## Usage
 
 ```shell
-cmake .
+mkdir build
+cd build
+cmake ..
 make
 ```
 
