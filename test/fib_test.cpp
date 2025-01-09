@@ -1,4 +1,4 @@
-#include <gtest/gtest.h>
+#include "test.h"
 
 #include "fib.h"
 

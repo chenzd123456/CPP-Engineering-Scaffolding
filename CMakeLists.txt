@@ -19,4 +19,5 @@ target_link_libraries(${PROJECT_NAME})
 
 add_subdirectory(test)
 add_subdirectory(deps/gtest)
-add_subdirectory(deps/cmocka)
+option(BUILD_CMOCKA_EXAMPLES "Build CMocka examples" OFF)
+add_subdirectory(deps/cmocka EXCLUDE_FROM_ALL)
